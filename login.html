@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Employee Details</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>	  
+	   <link rel="stylesheet" href="mystylesheet3.css" type="text/css">
+	</head>
+	<body>
+		<form  method="post">
+			<div class="container">
+			<div class="form">
+				<div class="col">
+				  <input type="text" class="form-control" placeholder="Your Name" name="username" autocomplete="off"/>
+				</div><br>
+			<div class="form">
+					<div class="col">
+					  <input type="text" class="form-control" placeholder="Your Department" name="dept" autocomplete="off"/>
+					</div><br>
+					</div>
+			<div class="form">
+						<div class="col">
+						  <input type="text" class="form-control" placeholder="Your ID" name="empid" autocomplete="off"/>
+						</div><br>
+						</div>
+						<button type="submit" class="btn btn-outline-success" name="save"  formaction="http://localhost:3000/save">Save</button>
+			            <button type="submit" class="btn btn-outline-primary" name="login"   formaction="http://localhost:3000/login">Login</button>
+						<button type="submit" class="btn btn-outline-warning" name="update"  formaction="http://localhost:3000/update">Update</button>
+						<button type="submit" class="btn btn-outline-danger" name="del"  formaction="http://localhost:3000/del">Delete</button>
+						
+			</div>  
+		</div>
+			</form>
+			<!--a href="http://localhost:3000/login">Login</a>
+			<a href="http://localhost:3000/save">Save</a-->
+	</body>
+</html>
